@@ -1,0 +1,119 @@
+body{
+    background: linear-gradient(180deg, #C6C9C2 0%, #F27777 20.15%, #C5C8C2 50.33%, #5C5D62 70.23%, #33353C 75%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+    min-height: 100vh;
+}
+
+.wrapper{
+    margin: 10px 65px 133px 65px;
+}
+
+.twrapper{
+    justify-content: center;
+    margin-top: 100px;
+    height: 50px;
+
+
+    display: flex;
+    flex-direction: row;
+}
+
+h2{
+    font-size: 20px;
+    color: aliceblue;
+    margin: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.menu{
+    height: 50px;
+
+    border: 2px solid #000;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#mouseclick{
+    background-color: #000;
+}
+#photo{
+   background-color: #fff;
+}
+#photo h2{
+    color: #000;
+}
+#drag{
+    background-color: #000;
+}
+
+.middle{
+    margin-top: 100px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    min-height: 600px;
+}
+
+#p5jscanvas{
+    border: 2px solid #000;
+
+    width: 600px;
+    height: 450px;
+}
+
+#next{
+    width: 200px;
+    height: 60px;
+    background-color: #fff;
+    padding: 15px;
+
+    position: absolute;
+    top: 450px;
+    right: 100px;
+    border: 2px solid #000;
+    border-radius: 30px;
+}
+
+#next img{
+    width: 100%;
+    height: 35px;
+    margin-top: 12px;
+}
+
+.bottom{
+    margin-top: 30px;
+}
+
+.textroatae{
+    position: relative;
+    overflow: hidden;
+
+}
+.lineslider {
+    display: flex;
+    animation: slideshow 6s linear infinite;
+}
+
+h8{
+    font-size: 18px;
+    margin-left: 20px;
+    font-weight: 600;
+    background-color: #5C5D62;
+
+}
+
+.slide {
+    display: flex;
+    align-items: center;
+    animation: slideshow 4s linear infinite;
+  }
+  
+
+  @keyframes slideshow {
+    0% {transform: translateX(100%);}
+    100% {transform: translateX(-100%);}
+  }
